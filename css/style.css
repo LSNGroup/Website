@@ -445,17 +445,6 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*SAMPLE*/
 .content{
     width:1090px;
@@ -464,7 +453,7 @@ header.page-header .main-menu.minified{ position: fixed; }
     /*border: 1px solid #ccc;*/
     padding: 25px 25px 15px 60px;
 }
-.con{
+.content .con{
     width: 297px;
     height: 198px;
     float: left;
@@ -473,11 +462,11 @@ header.page-header .main-menu.minified{ position: fixed; }
     position: relative;
     cursor: pointer;
 }
-.con img{
+.content .con img{
     width:297px;
     height: 198px;
 }
-.txt{
+.content .con .txt{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -488,12 +477,15 @@ header.page-header .main-menu.minified{ position: fixed; }
     color: #fff;
     background: rgba(0,0,0,0.6);
 }
-.txt h3{
+.content .con .txt h3{
     font-weight: normal;
+    line-height: 45px;
+    font-size: 15px;
 }
-.txt p{
+.content .con .txt p{
     font-size: 14px;
-    display: block;
+    display: none;
+    color: #FFFFFF;
     line-height: 20px;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
