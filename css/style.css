@@ -64,7 +64,7 @@ header.page-header .main-menu{
 
 
 .main-menu .navbar-nav li{
-    width: 100px;
+    width: 120px;
     height: 80px;
     top: -20px;
     position:relative ;
@@ -88,7 +88,7 @@ header.page-header .main-menu{
 
     /*background-color: transparent;*/
     color: #089EF5;
-    width: 100px;
+    width: 120px;
     height: 80px;
     background: #0C1A3E;
 
@@ -254,45 +254,31 @@ header.page-header .main-menu.minified{ position: fixed; }
     margin-bottom: 70px;
 }
 
-.item1 img{
-    width:280px;height:200px;
-    vertical-align:top;
-}
-.item1 li{position:relative;float:left;
-    margin-top:10px;
-    margin-right:10px;
-    width:280px;height:200px;overflow:hidden;cursor:pointer;}
-
-.item1 div{
-    position:absolute;
-    left:0;top:160px;
-    width:100%;height:40px;
-    text-align:center;background:url(../images/demo02.png) no-repeat;
-    background-size:100% 200px;
-    color:#FFF;overflow:hidden;
-}
-
-
-.item1 p{display:none;margin:5px auto 0;
-    color: #FFFFFF;
-    width:135px;line-height:20px;text-align:left;text-indent:2em;font-size:12px;}
-.item1 h3{margin:11px 0;height:40px;
-    color: #FFFFFF;
-}
-
 .node_bj{
     width: 100%;
-    height: 650px;
-    background:url(../images/node_bj.jpg);
-    background-size:100% 100%;
-    background-repeat:no-repeat;
+    height: 700px;
+    background:#000000;
     position:relative;
-    top:30px;
-    display:block;clear:both;
 }
-.node_bj img{
+.node_bj .node_img_bj{
+    width: 100%;
+    height: 700px;
+    background:url(../images/node_bj.jpg);
+    background-size:1300px 700px;
+    background-repeat:no-repeat;
+    background-position:center;
+    text-align: center;
+    margin:0 auto;
+}
+.node_bj .show-node-info{
+    width: 800px;
+    height: 530px;
+    position: relative;
+    margin:0 auto;
+}
+.node_bj .words3{
     height: 280px;
-    top:215px; left: 250px;
+    top:75px; left:55px;
     position:absolute;
 }
 .node_bj .node_title{
@@ -301,33 +287,38 @@ header.page-header .main-menu.minified{ position: fixed; }
     display:block;
 }
 
-.node_num1,.node_num2,.node_num3{
-    position:absolute;top: 510px;
+.node_bj .node_img_bj .show-node-info .node_num{
+    font-size: 13px;
+    line-height: 40px;
+    width: 200px;
+    margin: 400px 0px 0px 35px;
+    text-align: center;
+    float: left;
 }
-.node_num1{
-    left:330px;
+.node_bj .node_img_bj .show-node-info .node_num p{
+    color: #FFFFFF;
 }
-.node_num2{
-    left:580px;
+
+.node_bj .node_img_bj .show-node-info .node_num .fonts_30{
+    font-size: 30px;
 }
-.node_num3{
-    left:850px;
-}
-.node_bj .node_num1 p,.node_num2 p,.node_num3 p,.node_title p{
+.node_title p{
     color: #FFFFFF;
     font-size: 13px;
     text-align: center;
     line-height: 40px;
+    margin:0 auto;
+    width: 100%;
 }
-
-.node_bj .node_num1 .fonts_30,.node_num2 .fonts_30,.node_num3 .fonts_30,.node_title .fonts_30{
+.node_title .fonts_30{
     font-size: 30px;
 }
 
+/* LINKS*/
 .friendly_link{
     display:block;clear:both;
     position:relative;
-    top:80px;
+    top:50px;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -343,14 +334,13 @@ header.page-header .main-menu.minified{ position: fixed; }
     width: 900px;
 }
 .friendly_link ul li{
-    margin:20px 0px 0px 30px;
-    width: 110px;
+    margin:20px 0px 0px 100px;
+    width: 310px;
     float:left;
     display:block;
-    border: 1px solid #eeeeee;
 }
 .friendly_link ul li img{
-    width: 105px;height: 40px;
+    width: 220px;height: 55px;
 }
 .friendly_link ul li :hover{
     border: 1px solid #dc6103;
@@ -358,10 +348,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 
 .about-us{
     width: 100%;
-    height: 500px;
-    background:url(../images/about-us.png);
-    background-size:100% 100%;
-    background-repeat:no-repeat;
+    height: 450px;
     position:relative;
     top:30px;
     display:block;clear:both;
@@ -369,16 +356,16 @@ header.page-header .main-menu.minified{ position: fixed; }
 .about-us .about-us-title{
     text-align: center;
     line-height: 40px;
-    padding-top: 50px;
+    padding-top: 10px;
     display:block;clear:both;
 }
 .about-us .about-us-title .fonts_30{
     font-size: 30px;
-    color: #FFFFFF;
+    color: #000;
 }
 .about-us .about-us-title p{
     font-size: 15px;
-    color: #FFFFFF;
+    color: #000;
 }
 
 .about-us .about-us-content{
@@ -386,10 +373,12 @@ header.page-header .main-menu.minified{ position: fixed; }
     height: 350px;
     overflow: hidden;
     /*border: 1px solid red;*/
-    display:block;clear:both;
-    display: inline-block;
-    vertical-align: middle;
-    position: absolute;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.about-us .about-us-content .fonts_wight{
+    font-size: 15px;
+    font-weight: 900;
 }
 .about-us .about-us-content img{
     width: 350px;
@@ -400,12 +389,12 @@ header.page-header .main-menu.minified{ position: fixed; }
     float: left; margin-left: 16px;
 }
 .about-us .about-us-content .about-us-word p{
-    color: #FFFFFF;font-size: 15px; line-height: 35px;
+    color: #000;font-size: 15px; line-height: 35px;
 }
 
 .contact-us{
     height: 250px;
-    background:url(../images/contact-us.jpg);
+    background:url(../images/contact-us.png);
     background-size:100% 100%;
     background-repeat:no-repeat;
     position:relative;
@@ -420,7 +409,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 .contact-us .contact-us-title .fonts_30{
     font-size: 30px;
-    color: #000;
+    color: #FFFFFF;
 }
 .contact-us .contact-us-title p{
     font-size: 15px;
@@ -428,20 +417,43 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 
 .contact-us .mtp{
-    margin-left: -120px;
+    margin-left: -250px;
 }
-.contact-us img{
-    width: 50px;
-    margin-top: 60px;
-    margin-left: 120px;
+.contact-us .mtp a{
+    /*border: 1px solid red;*/
+    margin-top: 80px;
+    height: 100px;
+}
+.contact-us .mtp a span{
+    color: #FFFFFF;
+    margin-top: 40px;
+    font-size: 19px;
+    height: 100px;
+    line-height: 80px;
+    position: absolute;
+    margin-left: 20px;
+}
+.contact-us .mtp .facebook{
+    width: 17px;
+}
+.contact-us .mtp a img{
+    width: 30px;
+    margin-left: 60px;
+    margin-top:63px;
 }
 
 .main-bottom{
-    background: #2C353D;
+    background: #444154;
     width: 100%;
-    height: 120px;
+    height: 90px;
     text-align: center;
     line-height: 115px;
+    padding-top: 25px;
+}
+.main-bottom p{
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 30px;
 }
 
 
