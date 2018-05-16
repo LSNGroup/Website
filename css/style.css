@@ -17,7 +17,6 @@ ul{list-style:none;}
 img {border:0;}
 a{text-decoration:none;color:#686868;}
 a:hover{text-decoration:none;color:#f3782a;}
-
 /*top导航*/
 .top-blank{height:15px;overflow:hidden;background:none;}
 .top-head{height:15px;position:fixed;top:0;width:100%;z-index:1000;background:none;}
@@ -41,22 +40,10 @@ a:hover{text-decoration:none;color:#f3782a;}
     /*必须将背景色设为透明，否则无效。（除非对于要设置的元素本身已经是透明的，如：span元素等）*/
     background-color: rgba(0,0,0,0.25);
     filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#40000000,endColorstr=#40000000);
-
 }
-header.page-header .main-menu{
-    position: relative;
-}
-.navbar-brand img {
-    margin-top: -25px;
-    width: 100%;
-}
-.main-menu .navbar-nav{
-    float: right;
-    padding: 10px 0;
-    margin-right: 80px;
-    height: 50px;
-}
-
+header.page-header .main-menu{position: relative; }
+.navbar-brand img {margin-top: -25px;width: 100%; }
+.main-menu .navbar-nav{float: right;padding: 10px 0;margin-right: 80px;height: 50px;}
 .main-menu .navbar-nav li{
     width: 120px;
     height: 80px;
@@ -139,30 +126,24 @@ header.page-header .main-menu.minified{ position: fixed; }
 .DB_tab25 .DB_bgSet li{position:absolute;width:100%;height:500px;display:none;}
 .DB_bgSet .banner{width: 100%;}
 .DB_bgSet .banner img{width: 100%;height: 500px;}
-
 .DB_tab25 .DB_imgSet{position:absolute;width:988px;left:50%;margin-left:-500px;}
-
-.DB_tab25 .DB_imgSet .DB_1_1{position:absolute;left:-5px;top:200px;  font-size: 25px;  color: #FFFFFF;  width: 600px; }
-.DB_tab25 .DB_imgSet .DB_1_2{position:absolute;left:-5px;top:250px; font-size: 14px;  width: 660px;color: #FFFFFF;}
-
-.DB_tab25 .DB_imgSet .DB_1_3{position:absolute;left:10px;top:350px; height: 30px; width: 100px; line-height: 26px; }
+.DB_tab25 .DB_imgSet .DB_1_1{position:absolute;left:-5px;top:200px; font-size: 25px;  color: #FFFFFF;  width: 660px;}
+.DB_tab25 .DB_imgSet .DB_1_2{position:absolute;left:-5px;top:250px; font-size: 14px;  width: 800px;color: #FFFFFF;}
+.DB_tab25 .DB_imgSet .DB_1_3{position:absolute;left:10px;top:390px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_1_3 a{color: #FFFFFF;}
-
 .DB_tab25 .DB_imgSet .DB_2_1{position:absolute;left:-5px;top:200px;  font-size: 25px;  color: #FFFFFF;  width: 600px; }
 .DB_tab25 .DB_imgSet .DB_2_2{position:absolute;left:-5px;top:250px; font-size: 14px; width: 660px;color: #FFFFFF;}
 .DB_tab25 .DB_imgSet .DB_2_3{position:absolute;left:10px;top:350px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_2_3 a{color: #FFFFFF;}
-
 .DB_tab25 .DB_imgSet .DB_3_1{position:absolute;left:-5px;top:200px;  font-size: 25px;  color: #FFFFFF;  width: 600px; }
 .DB_tab25 .DB_imgSet .DB_3_2{position:absolute;left:-5px;top:250px; font-size: 14px; width: 660px;color: #FFFFFF;}
+.DB_tab25 .DB_imgSet .DB_3_2 p{font-size: 14px; width: 660px;color: #FFFFFF;line-height: 27px;}
 .DB_tab25 .DB_imgSet .DB_3_3{position:absolute;left:10px;top:350px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_3_3 a{color: #FFFFFF;}
-
 .DB_tab25 .DB_imgSet .DB_4_1{position:absolute;left:-5px;top:200px;  font-size: 25px;  color: #FFFFFF;  width: 600px; }
 .DB_tab25 .DB_imgSet .DB_4_2{position:absolute;left:-5px;top:250px; font-size: 14px; width: 660px;color: #FFFFFF;}
 .DB_tab25 .DB_imgSet .DB_4_3{position:absolute;left:10px;top:350px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_4_3 a{color: #FFFFFF;}
-
 .DB_tab25 .DB_menuWrap{position:absolute;width:988px;left:50%;margin-left:-500px;}
 .DB_tab25 .DB_menuWrap .DB_menuSet{position:absolute;width:100%;top:456px;text-align:center;font-size:0;}
 .DB_tab25 .DB_menuWrap .DB_menuSet li{cursor:pointer;margin:0 3px;display:inline}
@@ -171,12 +152,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 .DB_tab25 .DB_next{position:absolute;right:0px;top:220px;cursor:pointer;display:none}
 
 
-.qianwang{
-    width: 100%;
-    height: 300px;
-    background: #F9F9F9;
-    position:relative;
-}
+.qianwang{width: 100%;height: 300px; background: #F9F9F9;position:relative;}
 .qianwang-bj{
     width: 100%;
     height: 200px;
@@ -309,10 +285,6 @@ header.page-header .main-menu.minified{ position: fixed; }
 .friendly_link ul li img{
     width: 220px;height: 55px;
 }
-/*.friendly_link ul li :hover{
-    border: 1px solid #dc6103;
-}*/
-
 .about-us{
     width: 100%;
     height: 450px;
@@ -339,7 +311,6 @@ header.page-header .main-menu.minified{ position: fixed; }
     width: 1000px;
     height: 350px;
     overflow: hidden;
-    /*border: 1px solid red;*/
     margin: 0 auto;
     padding-top: 40px;
 }
@@ -358,7 +329,6 @@ header.page-header .main-menu.minified{ position: fixed; }
 .about-us .about-us-content .about-us-word p{
     color: #000;font-size: 15px; line-height: 35px;
 }
-
 .contact-us{
     height: 250px;
     background:url(../images/contact-us.png);
@@ -387,7 +357,6 @@ header.page-header .main-menu.minified{ position: fixed; }
     margin-left: -250px;
 }
 .contact-us .mtp a{
-    /*border: 1px solid red;*/
     margin-top: 80px;
     height: 100px;
 }
@@ -408,7 +377,6 @@ header.page-header .main-menu.minified{ position: fixed; }
     margin-left: 60px;
     margin-top:63px;
 }
-
 .main-bottom{
     background: #444154;
     width: 100%;
@@ -422,8 +390,6 @@ header.page-header .main-menu.minified{ position: fixed; }
     color: #FFFFFF;
     line-height: 30px;
 }
-
-
 /*SAMPLE*/
 .content{
     width:1090px;

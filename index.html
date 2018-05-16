@@ -66,37 +66,41 @@
             </ul>
             <ul class="DB_imgSet">
                 <li>
-                    <span class="DB_1_1">Streaming media distribution network</span>
+                    <span class="DB_1_1">LSN aims to reduce CDN cost by 75%</span>
                     <span class="DB_1_2">
-                        No longer rely on the traditional CDN server bandwidth resources, introducing a new P2P streaming media
-                        distribution mechanism,making full use of the broadband resources shared by users,
-                        reducing the broadband cost of the server by 75%
+                        Assume with 1 million peak-time concurrent viewers and 800k bitrate, based on current average bandwidth cost of ¥20/1MB,
+                        traditional centralized Content Distribution Network (CDN) would cost ¥30 million per month on network bandwidth alone.
+                        LSN doesn’t rely on the traditional centralized platform. Instead, its blockchain-based P2P decentralized distribution
+                        architecture and incentive mechanism enables the solution to maximize shared network bandwidth. Based on our measurement,
+                        with the continuous improvement of network technology and upcoming 5G network, LSN could potentially reduce CDN cost by 75%.
                     </span>
-                    <span class="DB_1_3 label label-default col-lg-1 label-primary"><a href="#">Details>></a></span>
+                    <span class="DB_1_3 label label-default col-lg-1 label-primary"><a href="pdf/LSN-Whitepaper-v1.0.pdf" target="_blank">Details>></a></span>
                 </li>
                 <li>
-                    <span class="DB_2_1">Distribution network services</span>
+                    <span class="DB_2_1">LSN Streaming Mechanism</span>
                     <span class="DB_2_2">
-                        making full use of the broadband resources shared by users,
-                        PROVIDES WORLD-LEADING STREAMING MEDIA DISTRIBUTION NETWORK SERVICES
+                        Video source is pushed to Streaming Media Forwarders (SMF) and distributed by them in LSN network via tiered tree structure.
+                        SMF is a software program developed by LSN team based Real Time Messaging Protocol (RTMP). User can deploy it on PC, server,
+                        virtual machine, or even on router as a plugin (openWRT compatible).
                     </span>
-                    <span class="DB_2_3 label label-default col-lg-1 label-primary"><a href="#">View Github</a></span>
+                    <span class="DB_2_3 label label-default col-lg-1 label-primary"><a href="pdf/LSN-Whitepaper-v1.0.pdf" target="_blank">View Github</a></span>
                 </li>
                 <li>
-                    <span class="DB_3_1">We provide Distribution network services</span>
+                    <span class="DB_3_1">Blockchain Technology in LSN</span>
                     <span class="DB_3_2">
-                        PROVIDES WORLD-LEADING STREAMING MEDIA DISTRIBUTION NETWORK SERVICES.
-                        No longer rely on the traditional CDN server bandwidth resources,
+                        LSN takes advantage of blockchain technology to achieve two accomplishments,
+                        <p>1) decentralizing the SMF node-registry database for a disaster-resilient network; </p>
+                        <p>2) leveraging smart contract for a trustless and transparent payment transaction system.</p>
                     </span>
-                    <span class="DB_3_3 label label-default col-lg-1 label-primary"><a href="#">learn more>></a></span>
+                    <span class="DB_3_3 label label-default col-lg-1 label-primary"><a href="pdf/LSN-Whitepaper-v1.0.pdf" target="_blank">learn more>></a></span>
                 </li>
                 <li>
-                    <span class="DB_4_1">network services</span>
+                    <span class="DB_4_1">LSN Open Platform APIs</span>
                     <span class="DB_4_2">
-                        No longer rely on the traditional CDN server bandwidth resources,
-                        PROVIDES WORLD-LEADING STREAMING MEDIA DISTRIBUTION NETWORK SERVICES,
+                       The following diagram illustrates the high-level API architecture of LSN open platform. LSN platform provides open APIs for broadcaster,
+                        viewers, reward configuration, and payments.
                     </span>
-                    <span class="DB_4_3 label label-default col-lg-1 label-primary"><a href="#">learn more>></a></span>
+                    <span class="DB_4_3 label label-default col-lg-1 label-primary"><a href="pdf/LSN-Whitepaper-v1.0.pdf" target="_blank">learn more>></a></span>
                 </li>
             </ul>
             <div class="DB_menuWrap">
@@ -120,29 +124,29 @@
         <div class="qianwang" id="WHITEPAPER">
             <div class="qianwang-bj">
                 <p class="qianwang-title">PROVIDES WORLD-LEADING STREAMING MEDIA DISTRIBUTION NETWORK SERVICES</p>
-                <span class="label qianwang_btn"><a href="#">White paper >> </a></span>
+                <span class="label qianwang_btn"><a href="pdf/LSN-Whitepaper-v1.0.pdf" target="_blank">White paper >> </a></span>
             </div>
         </div>
 
         <div class="node_bj" id="NODES">
             <div class="node_img_bj">
                 <span class="node_title">
-                    <p class="fonts_30">The entire network node status display</p>
-                    <p>LSN will open 100% of its powerful underlying resources to all users. With the ever-expanding sharing computing, node performance upgrade,
+                    <p class="fonts_30">The entire network nodes status display</p>
+                    <p>LSN will open 100% of its powerful underlying resources to all users. With the ever-expanding sharing computing, nodes performance upgrade,
                     <p>and more users joining, shared computing will have unlimited application potential.</p>
                 </span>
                 <div class="show-node-info">
                     <img src="images/3words.png?v=6" class="words3"/>
                     <span class="node_num">
-                        <p class="fonts_30">1000</p>
+                        <p class="fonts_30" id="number-nodes"> - </p>
                         <p>Number of nodes</p>
                     </span>
                     <span class="node_num">
-                        <p class="fonts_30">225</p>
+                        <p class="fonts_30" id="free-quantity"> - </p>
                         <p>Free quantity </p>
                     </span>
                     <span class="node_num">
-                        <p class="fonts_30">725</p>
+                        <p class="fonts_30" id="busy-quantity"> - </p>
                         <p>Busy quantity</p>
                     </span>
                 </div>
@@ -193,7 +197,6 @@
         <div class="main-bottom">
             <p class="">Terms of Use | Privacy Policy</p>
             <p class="">Copyright © 2018 admin@lsnet.io | All rights reserved</p>
-            <!--<img src="images/bottom-logo.png"/>-->
         </div>
     </div>
 </section>
@@ -236,6 +239,10 @@
             end: null
         }
     })
+    //Show nodes info
+    $("#number-nodes").html('1000');
+    $("#free-quantity").html('250');
+    $("#busy-quantity").html('750');
 </script>
 </body>
 </html>
