@@ -115,7 +115,7 @@ function(data){
         from:1,               //数字开始的值
         to:0,                 //数字结束的值
         speed:1000,           //设置步长的时间
-        refreshInterval:1,    //隔间值
+        refreshInterval:30,    //隔间值
         decimals:0,           //显示小位数
         formatter: formatter, //渲染之前格式化
         onUpdate:null,        //每次更新前的回调方法
