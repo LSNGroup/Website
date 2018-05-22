@@ -4,7 +4,11 @@
  * 2018-05-22
  */
 
-$nodes_key = $_POST['nodes_key'];
+$nodes_key = @$_POST['nodes_key'];
+if(empty($nodes_key)){
+   @header('Location: http://www.lsnet.io/');
+}
+
 if($nodes_key == 'xw5G12GHWQSGVwXWZSX03VtJHKBfAZzk')
 {
 	$free_quantity = rand(125,175); //空闲节点
