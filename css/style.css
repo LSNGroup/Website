@@ -255,6 +255,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 .node_title .fonts_30{
     font-size: 30px;
+    font-weight: 900;
 }
 
 /* LINKS*/

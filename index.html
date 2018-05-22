@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lsnet Official website</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css?v=201815183066" rel="stylesheet" type="text/css">
+    <link href="css/style.css?v=201805221542" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
@@ -62,7 +62,7 @@
             <ul class="DB_bgSet">
                 <li class="banner"><img src="images/bj01.jpg"/></li>
                 <li class="banner"><img src="images/bj02.jpg"/></li>
-                <li class="banner"><img src="images/bj03.jpg"/></li>
+                <li class="banner"><img src="images/bj03.jpg?v=123"/></li>
                 <li class="banner"><img src="images/bj04.jpg"/></li>
             </ul>
             <ul class="DB_imgSet">
@@ -139,15 +139,15 @@
                 <div class="show-node-info">
                     <img src="images/3words.png?v=6" class="words3"/>
                     <span class="node_num">
-                        <p class="fonts_30" id="number-nodes"> - </p>
+                        <p class="fonts_30 timer" id="number-nodes" data-to="500" data-speed="1500"> - </p>
                         <p>Number of nodes</p>
                     </span>
                     <span class="node_num">
-                        <p class="fonts_30" id="free-quantity"> - </p>
+                        <p class="fonts_30 timer" id="free-quantity" data-to="200" data-speed="1500"> - </p>
                         <p>Free quantity </p>
                     </span>
                     <span class="node_num">
-                        <p class="fonts_30" id="busy-quantity"> - </p>
+                        <p class="fonts_30 timer" id="busy-quantity" data-to="300" data-speed="1500"> - </p>
                         <p>Busy quantity</p>
                     </span>
                 </div>
@@ -203,47 +203,11 @@
 </section>
 <!-- Main Slider End -->
 <!--loading JS-->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.DB_tabMotionBanner.min.js"></script>
-<script src="js/jquery-migrate-1.2.1.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script type="text/javascript">
-    $('#menu').onePageNav({
-        currentClass: 'active',
-        changeHash: false,
-        scrollSpeed: 750,
-        scrollThreshold: 0.5,
-        filter: '',
-        easing: 'swing',
-        begin: function() {
-        },
-        end: function() {
-        },
-        scrollChange: function($currentListItem) {
-        }
-    });
-    $('.DB_tab25').DB_tabMotionBanner({
-        key: 'b28551',
-        autoRollingTime: 6000,
-        bgSpeed: 1000,
-        motion: {
-            DB_1_1: { left: -50, opacity: 0, speed: 1000, delay: 500 },
-            DB_1_2: { left: -50, opacity: 0, speed: 1000, delay: 1000 },
-            DB_1_3: { left: 100, opacity: 0, speed: 1000, delay: 1500 },
-            DB_2_1: { top: 50, opacity: 0, speed: 1000, delay: 500 },
-            DB_2_2: { top: 50, opacity: 0, speed: 1000, delay: 1000 },
-            DB_2_3: { top: 100, opacity: 0, speed: 1000, delay: 1500 },
-            DB_3_1: { left: -50, opacity: 0, speed: 1000, delay: 500 },
-            DB_3_2: { top: 50, opacity: 0, speed: 1000, delay: 1000 },
-            DB_3_3: { top: 0, opacity: 0, speed: 1000, delay: 1500 },
-            end: null
-        }
-    })
-    //Show nodes info
-    $("#number-nodes").html('1000');
-    $("#free-quantity").html('250');
-    $("#busy-quantity").html('750');
-</script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.DB_tabMotionBanner.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
 </body>
 </html>
