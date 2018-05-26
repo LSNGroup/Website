@@ -1,6 +1,11 @@
 /**
  * Created on 2018/5/22.
  */
+//Prohibit the right mouse button
+document.oncontextmenu = function(){
+    return false;
+}
+//menu
 $('#menu').onePageNav({
     currentClass: 'active',
     changeHash: false,
