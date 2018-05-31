@@ -3,7 +3,7 @@
  */
 //Prohibit the right mouse button
 document.oncontextmenu = function(){
-    return false;
+    //return false;
 }
 //menu
 $('#menu').onePageNav({
