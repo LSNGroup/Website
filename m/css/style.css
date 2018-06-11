@@ -18,15 +18,15 @@ img {border:0;}
 a{text-decoration:none;color:#686868;}
 a:hover{text-decoration:none;color:#f3782a;}
 /*top导航*/
-@media (min-width: 768px){ //>=768的设备 }
-@media (min-width: 992px){ //>=992的设备 }
-@media (min-width: 1200){ //>=1200的设备 }
-@media (min-width: 1200){ //>=1200的设备 }
-@media (min-width: 992px){ //>=992的设备 }
-@media (min-width: 768px){ //>=768的设备 }
-@media (max-width: 1199){ //<=1199的设备 }
-@media (max-width: 991px){ //<=991的设备 }
-@media (max-width: 767px){ //<=768的设备 }
+@media (min-width: 768px){ /*//>=768的设备 */}
+@media (min-width: 992px){/* //>=992的设备*/ }
+@media (min-width: 1200px){/* //>=1200的设备*/ }
+@media (min-width: 1200px){/* //>=1200的设备*/ }
+@media (min-width: 992px){ /*//>=992的设备 */}
+@media (min-width: 768px){ /*//>=768的设备 */}
+@media (max-width: 1199px){/* //<=1199的设备*/ }
+@media (max-width: 991px){ /*//<=991的设备*/ }
+@media (max-width: 767px){ /*//<=768的设备*/ }
 
 .navbar-transparent{
     -webkit-transition: all .35s!important;
@@ -58,7 +58,7 @@ a:hover{text-decoration:none;color:#f3782a;}
 
 
 header.page-header .main-menu{position: relative; }
-.navbar-brand img {margin-top: -12px; max-width: 160px;max-height: 37px;}
+.navbar-brand img {margin-top: -9px; max-width: 160px;max-height: 37px;}
 
 .main-menu .navbar-nav{float: right;}
 .main-menu .navbar-nav li{
