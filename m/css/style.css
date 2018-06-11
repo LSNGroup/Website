@@ -168,6 +168,10 @@ header.page-header .main-menu.minified{ position: fixed; }
 .DB_tab25 .DB_imgSet .DB_4_3{position:absolute;left:10px;top:340px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_4_3 a{color: #FFFFFF;}
 
+.DB_tab25 .DB_imgSet .DB_5_1{position:absolute;left:-5px;top:150px;  font-size: 13px;  color: #FFFFFF;  width: 330px; }
+.DB_tab25 .DB_imgSet .DB_5_2{position:absolute;left:-5px;top:180px; font-size: 7px; width: 330px;color: #FFFFFF;}
+.DB_tab25 .DB_imgSet .DB_5_3{position:absolute;left:10px;top:340px; height: 30px; width: 100px; line-height: 26px; }
+.DB_tab25 .DB_imgSet .DB_5_3 a{color: #FFFFFF;}
 
 .DB_tab25 .DB_menuWrap{position:absolute;width:988px;left:50%;margin-left:-500px;}
 .DB_tab25 .DB_menuWrap .DB_menuSet{position:absolute;width:100%;top:400px;text-align:center;font-size:0;}
@@ -175,10 +179,6 @@ header.page-header .main-menu.minified{ position: fixed; }
 .DB_tab25 .DB_menuWrap .DB_menuSet li img{width:40px; height: 5px;border-radius:2px;}
 .DB_tab25 .DB_prev{position:absolute;left:0px;top:220px;cursor:pointer;display:none}
 .DB_tab25 .DB_next{position:absolute;right:0px;top:220px;cursor:pointer;display:none}
-
-
-
-
 
 .qianwang{width: 100%;height: 200px; background: #F9F9F9;position:relative;}
 .qianwang-bj{
@@ -330,17 +330,18 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 .about-us .about-us-content img{
     height: 120px;
-    margin-left: 10px;
-    float: left;
-    width: 40%;
+    margin: 0 auto;
+    display: block;
 }
 .about-us .about-us-content .about-us-word{
     float: left; margin-left: 16px;
-    width: 50%;
-    float: right;
+    margin-top: 10px;
+    /*width: 50%;
+    float: right;*/
 }
 .about-us .about-us-content .about-us-word p{
     color: #000;font-size: 15px; line-height: 23px;
+    text-align: left;
 }
 
 
