@@ -334,10 +334,11 @@ header.page-header .main-menu.minified{ position: fixed; }
     display: block;
 }
 .about-us .about-us-content .about-us-word{
-    float: left; margin-left: 16px;
+    margin-left: 16px;
     margin-top: 10px;
     /*width: 50%;
     float: right;*/
+    text-align: center;
 }
 .about-us .about-us-content .about-us-word p{
     color: #000;font-size: 15px; line-height: 23px;
