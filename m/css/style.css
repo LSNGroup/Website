@@ -18,9 +18,7 @@ img {border:0;}
 a{text-decoration:none;color:#686868;}
 a:hover{text-decoration:none;color:#f3782a;}
 /*top导航*/
-
-
-/*@media (min-width: 768px){ //>=768的设备 }
+@media (min-width: 768px){ //>=768的设备 }
 @media (min-width: 992px){ //>=992的设备 }
 @media (min-width: 1200){ //>=1200的设备 }
 @media (min-width: 1200){ //>=1200的设备 }
@@ -28,7 +26,7 @@ a:hover{text-decoration:none;color:#f3782a;}
 @media (min-width: 768px){ //>=768的设备 }
 @media (max-width: 1199){ //<=1199的设备 }
 @media (max-width: 991px){ //<=991的设备 }
-@media (max-width: 767px){ //<=768的设备 }*/
+@media (max-width: 767px){ //<=768的设备 }
 
 .navbar-transparent{
     -webkit-transition: all .35s!important;
@@ -60,9 +58,7 @@ a:hover{text-decoration:none;color:#f3782a;}
 
 
 header.page-header .main-menu{position: relative; }
-.navbar-brand img {margin-top: -18px; max-width: 180px;max-height: 35px;}
-
-/*.main-menu .navbar-nav{float: right;padding: 10px 0;margin-right: 80px;height: 50px;}*/
+.navbar-brand img {margin-top: -12px; max-width: 160px;max-height: 37px;}
 
 .main-menu .navbar-nav{float: right;}
 .main-menu .navbar-nav li{
@@ -163,12 +159,12 @@ header.page-header .main-menu.minified{ position: fixed; }
 
 .DB_tab25 .DB_imgSet .DB_3_1{position:absolute;left:-5px;top:120px;  font-size: 13px;  color: #FFFFFF;  width: 330px; }
 .DB_tab25 .DB_imgSet .DB_3_2{position:absolute;left:-5px;top:160px; font-size: 7px; width: 330px;color: #FFFFFF;}
-.DB_tab25 .DB_imgSet .DB_3_2 p{width: 330px;color: #FFFFFF;line-height: 27px;font-size: 7px; }
+.DB_tab25 .DB_imgSet .DB_3_2 p{width: 330px;color: #FFFFFF;line-height: 21px;font-size: 7px; }
 .DB_tab25 .DB_imgSet .DB_3_3{position:absolute;left:10px;top:340px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_3_3 a{color: #FFFFFF;}
 
-.DB_tab25 .DB_imgSet .DB_4_1{position:absolute;left:-5px;top:220px;  font-size: 13px;  color: #FFFFFF;  width: 330px; }
-.DB_tab25 .DB_imgSet .DB_4_2{position:absolute;left:-5px;top:250px; font-size: 7px; width: 330px;color: #FFFFFF;}
+.DB_tab25 .DB_imgSet .DB_4_1{position:absolute;left:-5px;top:150px;  font-size: 13px;  color: #FFFFFF;  width: 330px; }
+.DB_tab25 .DB_imgSet .DB_4_2{position:absolute;left:-5px;top:180px; font-size: 7px; width: 330px;color: #FFFFFF;}
 .DB_tab25 .DB_imgSet .DB_4_3{position:absolute;left:10px;top:340px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_4_3 a{color: #FFFFFF;}
 
@@ -202,21 +198,21 @@ header.page-header .main-menu.minified{ position: fixed; }
     color: #000;
     text-align:center;
     margin: 0 auto;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 .qianwang_btn{
     color: #FFFFFF;
     position: absolute;
     display:inline-block;
     text-align: center;
-    top:60px;
+    top:70px;
     width: 120px;
     height: 28px;
     line-height: 23px;
     background: #D27E28;
     border-radius: 40px 40px 40px 40px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -60px;
 }
 .qianwang_btn a{
     color: #FFFFFF;
@@ -281,7 +277,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 
 .node_bj .node_img_bj .show-node-info .node_num .fonts_30{
-    font-size: 23px;
+    font-size: 20px;
 }
 .node_title p{
     color: #FFFFFF;
@@ -294,7 +290,7 @@ header.page-header .main-menu.minified{ position: fixed; }
     font-size: 6px!important;
 }
 .node_title .fonts_30{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 900;
 }
 
@@ -333,14 +329,14 @@ header.page-header .main-menu.minified{ position: fixed; }
     font-weight: 900;
 }
 .about-us .about-us-content img{
-    height: 150px;
+    height: 120px;
     margin-left: 10px;
     float: left;
     width: 40%;
 }
 .about-us .about-us-content .about-us-word{
     float: left; margin-left: 16px;
-    width: 53%;
+    width: 50%;
     float: right;
 }
 .about-us .about-us-content .about-us-word p{
