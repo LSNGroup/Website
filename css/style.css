@@ -144,13 +144,26 @@ header.page-header .main-menu.minified{ position: fixed; }
 .DB_tab25 .DB_imgSet .DB_4_2{position:absolute;left:-5px;top:250px; font-size: 14px; width: 660px;color: #FFFFFF;}
 .DB_tab25 .DB_imgSet .DB_4_3{position:absolute;left:10px;top:350px; height: 30px; width: 100px; line-height: 26px; }
 .DB_tab25 .DB_imgSet .DB_4_3 a{color: #FFFFFF;}
+.DB_tab25 .DB_imgSet .DB_5_1{position:absolute;left:-5px;top:200px;  font-size: 25px;  color: #FFFFFF;  width: 600px; }
+.DB_tab25 .DB_imgSet .DB_5_2{position:absolute;left:-5px;top:250px; font-size: 14px; width: 660px;color: #FFFFFF;}
+.DB_tab25 .DB_imgSet .DB_5_3{
+    position:absolute;
+    top:350px;
+    width: 100px;
+    height: 30px;
+    line-height: 26px;
+    float: right;
+    margin-left: 450px;
+    display:block;
+}
+.DB_tab25 .DB_imgSet .DB_5_3 a{color: #FFFFFF;}
+
 .DB_tab25 .DB_menuWrap{position:absolute;width:988px;left:50%;margin-left:-500px;}
 .DB_tab25 .DB_menuWrap .DB_menuSet{position:absolute;width:100%;top:456px;text-align:center;font-size:0;}
 .DB_tab25 .DB_menuWrap .DB_menuSet li{cursor:pointer;margin:0 3px;display:inline}
 .DB_tab25 .DB_menuWrap .DB_menuSet li img{width:70px; height: 5px;border-radius:2px;}
 .DB_tab25 .DB_prev{position:absolute;left:0px;top:220px;cursor:pointer;display:none}
 .DB_tab25 .DB_next{position:absolute;right:0px;top:220px;cursor:pointer;display:none}
-
 
 .qianwang{width: 100%;height: 300px; background: #F9F9F9;position:relative;}
 .qianwang-bj{

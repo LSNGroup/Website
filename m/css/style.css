@@ -170,7 +170,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 
 .DB_tab25 .DB_imgSet .DB_5_1{position:absolute;left:-5px;top:150px;  font-size: 13px;  color: #FFFFFF;  width: 330px; }
 .DB_tab25 .DB_imgSet .DB_5_2{position:absolute;left:-5px;top:180px; font-size: 7px; width: 330px;color: #FFFFFF;}
-.DB_tab25 .DB_imgSet .DB_5_3{position:absolute;left:10px;top:340px; height: 30px; width: 100px; line-height: 26px; }
+.DB_tab25 .DB_imgSet .DB_5_3{position:absolute;top:340px; height: 30px; width: 100px; line-height: 26px; margin-left: 110px;}
 .DB_tab25 .DB_imgSet .DB_5_3 a{color: #FFFFFF;}
 
 .DB_tab25 .DB_menuWrap{position:absolute;width:988px;left:50%;margin-left:-500px;}
