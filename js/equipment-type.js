@@ -23,7 +23,7 @@ $(function(){
     }());
     //SmartPhone   
     if (MobileUA.SMART_PHONE) {
-        // 移动端链接地址   
-        document.location.href = '//m.lsnet.io/';
+        // Mobile end link address   
+        //document.location.href = '//m.lsnet.io/';
     }
 }); 
