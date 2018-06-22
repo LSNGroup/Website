@@ -184,7 +184,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 .qianwang-bj{
     width: 100%;
     height: 120px;
-    background:url(../images/qianwang_bj.png?v=20180513);
+    background:url(../images/qianwang_bj.png?v=20180622);
     background-size:100% 120px;
     background-repeat:no-repeat;
     background-position:center;
@@ -200,7 +200,7 @@ header.page-header .main-menu.minified{ position: fixed; }
     margin: 0 auto;
     margin-top: -50px;
 }
-.qianwang_btn{
+.qianwang_btn1{
     color: #FFFFFF;
     position: absolute;
     display:inline-block;
@@ -211,14 +211,27 @@ header.page-header .main-menu.minified{ position: fixed; }
     line-height: 23px;
     background: #D27E28;
     border-radius: 40px 40px 40px 40px;
-    left: 50%;
+    left: 33%;
     margin-left: -60px;
 }
-.qianwang_btn a{
+.qianwang_btn2{
+    color: #FFFFFF;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    top:70px;
+    width: 120px;
+    height: 28px;
+    line-height: 23px;
+    background: #D27E28;
+    border-radius: 40px 40px 40px 40px;
+    left: 55%;
+}
+.qianwang_btn1 a,.qianwang_btn2 a{
     color: #FFFFFF;
     font-size: 10px;
 }
-.qianwang_btn a:hover{
+.qianwang_btn1 a:hover,.qianwang_btn2 a:hover{
     color: #000000;
 }
 
@@ -237,7 +250,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 .node_bj .node_img_bj{
     width: 100%;
     height: 100%;
-    background:url(../images/nodes_bj.png);
+    background:url(../images/nodes_bj.png?v=20180622);
     background-size:100% 700px;
     background-repeat:no-repeat;
     background-position:center;
@@ -256,7 +269,6 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 .node_bj .node_title{
     padding-top:50px;
-    text-align: center;
     display:block;
 }
 
@@ -281,7 +293,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 }
 .node_title p{
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     line-height: 20px;
     margin:0 auto;
     width: 95%;
@@ -290,7 +302,7 @@ header.page-header .main-menu.minified{ position: fixed; }
     font-size: 6px!important;
 }
 .node_title .fonts_30{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 900;
 }
 
@@ -348,7 +360,7 @@ header.page-header .main-menu.minified{ position: fixed; }
 
 .contact-us{
     height: 180px;
-    background:url(../images/contact-us.png);
+    background:url(../images/contact-us.png?v=20180622);
     background-size:100% 100%;
     background-repeat:no-repeat;
     position:relative;

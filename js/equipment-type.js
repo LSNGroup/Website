@@ -24,6 +24,6 @@ $(function(){
     //SmartPhone   
     if (MobileUA.SMART_PHONE) {
         // Mobile end link address   
-        //document.location.href = '//m.lsnet.io/';
+        document.location.href = '//m.lsnet.io/';
     }
 }); 

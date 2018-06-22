@@ -42,7 +42,7 @@ a:hover{text-decoration:none;color:#f3782a;}
     filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#40000000,endColorstr=#40000000);
 }
 header.page-header .main-menu{position: relative; }
-.navbar-brand img {margin-top: -25px;width: 100%; }
+.navbar-brand .logo{margin-top: -25px; width: 80px;}
 .main-menu .navbar-nav{float: right;padding: 10px 0;margin-right: 80px;height: 50px;}
 .main-menu .navbar-nav li{
     width: 120px;
@@ -185,10 +185,10 @@ header.page-header .main-menu.minified{ position: fixed; }
     margin: 0 auto;
     margin-top: -30px;
 }
-.qianwang_btn{
+.qianwang_btn1{
     color: #FFFFFF;
     position: absolute;
-    left: 40%;
+    left: 33%;
     top:100px;
     width: 160px;
     height: 34px;
@@ -196,11 +196,24 @@ header.page-header .main-menu.minified{ position: fixed; }
     background: #D27E28;
     border-radius: 40px 40px 40px 40px;
 }
-.qianwang_btn a{
+
+.qianwang_btn2{
+    color: #FFFFFF;
+    position: absolute;
+    left: 53%;
+    top:100px;
+    width: 160px;
+    height: 34px;
+    line-height: 29px;
+    background: #D27E28;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.qianwang_btn1 a,.qianwang_btn2 a{
     color: #FFFFFF;
     font-size: 13px;
 }
-.qianwang_btn a:hover{
+.qianwang_btn1 a:hover, .qianwang_btn2 a:hover{
     color: #000000;
 }
 
