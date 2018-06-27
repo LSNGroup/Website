@@ -309,11 +309,12 @@ header.page-header .main-menu.minified{ position: fixed; }
     width: 95%;
 }
 .node_title .title_content{
-    font-size: 6px!important;
+    font-size: 15px!important;
 }
 .node_title .fonts_30{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 900;
+    margin-bottom: 15px;
 }
 
 .about-us{
